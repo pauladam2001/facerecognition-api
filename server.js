@@ -41,8 +41,12 @@ app.put('/image', (req, res) => { image.handleImage(req, res, db) })
 app.post('/imageurl', (req, res) => { image.handleApiCall(req, res) })		// /name is called endpoint
 
 
-app.listen(3001, () => {
-	console.log('app is running on port 3001');
+// app.listen(3001, () => {
+	// console.log('app is running on port 3001');
+// });
+
+app.listen(process.env.PORT || 3001, () => {
+	console.log(`app is running on port ${process.env.PORT}`);
 });
 
 // const PORT = process.env.PORT
