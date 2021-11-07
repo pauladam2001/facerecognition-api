@@ -19,6 +19,8 @@ const image = require('./controllers/image');
 //   }
 // });
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
+
 const db = knex({
 	client: 'pg',
 	connection: {
