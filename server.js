@@ -11,7 +11,7 @@ const image = require('./controllers/image');
 const db = knex({
   client: 'pg',
   connection: {
-    host : '127.0.0.1',
+    host : 'postgresql-dimensional-46345',			// 127.0.0.1
     // port : 3306,
     user : 'postgres',
     password : 'Pericol2001',		// how to get rid of that? Or do we need to?
