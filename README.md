@@ -9,3 +9,4 @@
 - PostgreSQL database
 - Knex (for connecting the databse with the server)
 - Heroku (for deploying the server and also the Frontend)
+- Clarifai AI API for face detecting
