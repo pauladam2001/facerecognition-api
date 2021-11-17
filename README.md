@@ -8,6 +8,7 @@
 - Cors (Frontend and Backend connection)
 - Bcrypt (for password hasing)
 - PostgreSQL database
+- Postman
 - Knex (for connecting the databse with the server)
 - Heroku (for deploying the server and also the Frontend)
 - Clarifai AI API for face detecting
